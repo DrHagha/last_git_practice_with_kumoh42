@@ -22,6 +22,7 @@ Fixme >
 - 테스트 입니다.
 '''
 
+import Student
 
 from Teacher import Teacher
 
@@ -30,3 +31,5 @@ if __name__ == "__main__":
     print("test")
     teacher = Teacher("mingyu")
     teacher.hi()
+    student = Student("namae")
+    student.hello()
