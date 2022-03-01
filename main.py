@@ -23,5 +23,10 @@ Fixme >
 '''
 
 
+from Teacher import Teacher
+
+
 if __name__ == "__main__":
     print("test")
+    teacher = Teacher("mingyu")
+    teacher.hi()
