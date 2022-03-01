@@ -22,6 +22,9 @@ Fixme >
 - 테스트 입니다.
 '''
 
+import Student
 
 if __name__ == "__main__":
     print("test")
+    student = Student("namae")
+    student.hello()
